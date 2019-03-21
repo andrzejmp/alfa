@@ -47,7 +47,7 @@ git checkout master
 git pull --rebase origin
 
 ------------------------------------------------------------------
-## tutorials
+## Tutorials
    
 https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
    
