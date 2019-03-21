@@ -1,15 +1,22 @@
 # Git Setup
 
 git config --global user.name "adamabacki"
+
 git config --global user.email adamabacki@whatisit.com
+
 ----------------------------------------------------
 # Additional Instructions
 
 git config --global core.editor emacs
+
 git config --list
+
 git config user.name
+
 git help <verb>
+
 man git-<verb>
+
 git help config
 
 ----------------------------------------------------
