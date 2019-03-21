@@ -33,14 +33,17 @@ git remote add origin https://github.com/andrzejmp/new_repo.git
 
 git push -u origin master
 
-## push an existing repository from the command line
+----------------------------------------------------
+
+## Push an existing repository from the command line
 
 git remote add origin https://github.com/andrzejmp/new_repo.git
 
 git push -u origin master
 
 -----------------------------------------------------------------
-## synchronization with the central repository's master branch using a rebase
+
+## Synchronization with the central repository's master branch using a rebase
 
 git checkout master
 
