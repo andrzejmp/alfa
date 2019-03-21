@@ -1,4 +1,7 @@
-# Git Setup
+# Git amd Github
+
+----------------------------------------------------
+## Git Setup
 
 git config --global user.name "adamabacki"
 
@@ -54,4 +57,6 @@ https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
 https://git-scm.com/doc
    
 https://www.atlassian.com/git/tutorials/syncing/git-pull
+
+https://guides.github.com/activities/hello-world/
 
