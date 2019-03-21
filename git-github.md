@@ -1,11 +1,9 @@
+# Git Setup
 
-# first-Time Git Setup
-
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
+git config --global user.name "adamabacki"
+git config --global user.email adamabacki@whatisit.com
 ----------------------------------------------------
-
-#some additional instructions
+# Additional Instructions
 
 git config --global core.editor emacs
 git config --list
@@ -16,29 +14,30 @@ git help config
 
 ----------------------------------------------------
 
-# create a new repository on the command line
+## Creating a new repository on the command line
 
-echo "# test-02" >> README.md
+echo # new_repo >> README.md
 git init
 git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/andrzejmp/test-02.git
+git commit -m "A new repo"
+git remote add origin https://github.com/andrzejmp/new_repo.git
 git push -u origin master
 
-# push an existing repository from the command line
+## push an existing repository from the command line
 
-git remote add origin https://github.com/andrzejmp/test-02.git
+git remote add origin https://github.com/andrzejmp/new_repo.git
 git push -u origin master
 
 -----------------------------------------------------------------
-# synchronization with the central repository's master branch using a rebase
-# https://www.atlassian.com/git/tutorials/syncing/git-pull
+## synchronization with the central repository's master branch using a rebase
 
 git checkout master
 git pull --rebase origin
+
 ------------------------------------------------------------------
 
-# tutorials
-# https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
-# https://git-scm.com/doc
+## tutorials
+   https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+   https://git-scm.com/doc
+   https://www.atlassian.com/git/tutorials/syncing/git-pull
 
