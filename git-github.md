@@ -18,7 +18,6 @@ git help
 git help config
 
 ----------------------------------------------------
-
 ## Creating a new repository on the command line
 
 echo new_repo >> README.md
@@ -34,7 +33,6 @@ git remote add origin https://github.com/andrzejmp/new_repo.git
 git push -u origin master
 
 ----------------------------------------------------
-
 ## Push an existing repository from the command line
 
 git remote add origin https://github.com/andrzejmp/new_repo.git
@@ -42,7 +40,6 @@ git remote add origin https://github.com/andrzejmp/new_repo.git
 git push -u origin master
 
 -----------------------------------------------------------------
-
 ## Synchronization with the central repository's master branch using a rebase
 
 git checkout master
@@ -50,7 +47,6 @@ git checkout master
 git pull --rebase origin
 
 ------------------------------------------------------------------
-
 ## tutorials
    
 https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
